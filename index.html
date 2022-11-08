@@ -5,28 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weniv Timer</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="wrapper">
-        <h1>
-            <img src="src/weniv-logo.svg" alt="주식회사 위니브 로고이미지">
-        </h1>
+        <header>
+            <h1>
+                <img src="src/weniv-logo.svg" alt="주식회사 위니브 로고이미지" class="logo-weniv">
+            </h1>
+        </header>
 
-        <section>
+        <section id="cont-timer">
             <h2 class="tit-timer">TIMER</h2>
+
             <div class="cont-timer">
-                <div class="hour"></div>
-                <div class="minute"></div>
-                <div class="second"></div>
+                <div class="hour">
+                    <p class="tit-hour">HRS</p>
+                    <div class="txt-hour">
+                        <span></span>
+                        <img src="src/component/box.png" alt="시 시간">
+                    </div>
+                </div>
+                <div class="minute">
+                    <p class="tit-minute">MIN</p>
+                    <div class="txt-minute">
+                        <span></span>
+                        <img src="src/component/box.png" alt="분 시간">
+                    </div>
+                </div>
+                <div class="second">
+                    <p class="tit-second">SEC</p>
+                    <div class="txt-second">
+                        <span></span>
+                        <img src="src/component/box.png" alt="초 시간">
+                    </div>
+                </div>    
             </div>
+
             <div class="cont-button">
-                <div class="start"></div>
-                <div class="reset"></div>
+                <div class="start">
+                    <img src="src/button/start-disabled.png" alt="비활성화된 스타트 버튼">
+                </div>
+                <div class="reset">
+                    <img src="src/button/reset-disabled.png" alt="비활성화된 스타트 버튼">
+                </div>
             </div>
         </section>
 
-        <footer>
-            ⓒ WENIV CORP.
+        <footer class="footer">
+            <p>ⓒ WENIV CORP.</p>
         </footer>
     </div>
 </body>

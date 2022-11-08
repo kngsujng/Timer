@@ -1,0 +1,70 @@
+body{
+    background: radial-gradient(96.74% 276.79% at 3.59% 5.28%, #F0F4FF 0%, #A5B6EE 100%); 
+}
+
+.logo-weniv{
+    display: block;
+    margin: 72px auto 60px;
+    width: 244px;
+}
+
+#cont-timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 180px auto 0;
+    width: 400px;
+    height: 360px;
+    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+    border-radius: 16px;
+}
+
+.tit-timer{
+    /* border-bottom: 1px solid #3D538A; */
+    display: block;
+    margin: 48px auto 57px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.cont-timer{
+    display: flex;
+    align-items: center;
+    justify-content: 
+    /* margin: 0 44px; */
+}
+
+.tit-hour, .tit-minute, .tit-second {
+    display: block;
+    margin-bottom: 4px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    color: #A5B6EE;
+}
+
+.hour, .minute{
+    margin-right: 22px; 
+}
+
+/* cont-button */
+.cont-button{
+    display: flex;
+}
+
+.start, .reset{
+    margin: 40px auto;
+}
+
+.start{
+    margin-right: 12px;
+}
+
+.footer{
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+    color: #8596BF;
+}
